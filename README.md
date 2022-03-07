@@ -1,4 +1,4 @@
-# smil-food-yami website
+# smile-food-yami website
 
 ## info
 - jojinyang1@gmail.com
