@@ -10,25 +10,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+KR&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/4c57713e8e.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../css/style.css">
     </head>
 <body>
     <h1 class="d-none">스마일 푸드 야미 웹</h1>
-    <div id="modal" class="d-none">
-        <div class="modal-wrap">
-            <h2>배송지연 안내</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, nesciunt veritatis id consequuntur totam provident, eum omnis impedit quisquam possimus eos vitae similique sapiente velit officiis doloremque fuga qui sunt.</p>
-            <p>죄송</p>
-        </div>
-        
-    </div>
     <header>
-        <h2 class="d-none">야미 헤더 - 브랜드로고와 전체메뉴, 기타메뉴 등</h2>
+        <h2 class="d-none">야미 헤더 - 대표인사말, 브랜드스토리, 연혁</h2>
         <div class="header-top">
             <div class="header-logo">
                 <a href="#">
-                    <img src="images/logo.gif" alt="야미">
+                    <img src="../images/logo.gif" alt="야미">
                 </a>
             </div>
             <ul class="header-links">
@@ -42,7 +35,7 @@
             <nav>
                 <h3 class="d-none">전역메뉴</h3>
                 <ul id="gnb">
-                    <li><a href="/about">야미소개</a></li>
+                    <li><a href="#">야미소개</a></li>
                     <li><a href="#">생산공정</a></li>
                     <li><a href="#">제품소개</a></li>
                     <li><a href="#">고객센터</a></li>
@@ -50,41 +43,32 @@
             </nav>
         </div>
     </header>
-    <div class="hero">
-        <div class="slogan-text">
-            <p>함께하면 행복해지는</p>
-            <p>스마일푸드 야미</p>
-        </div>
-        <div class="down-btn">
-            <a href="#">기업 소개서</a>
-        </div>
-
-    </div>
-    <div class="icon-links">
-        <ul>
-            <li><a href="#"><img src="images/visual_icon1.jpg" alt="기업소개"></a></li>
-            <li><a href="#"><img src="images/visual_icon2.jpg" alt="사업안내"></a></li>
-            <li><a href="#"><img src="images/visual_icon3.jpg" alt="제품정보"></a></li>
-            <li><a href="#"><img src="images/visual_icon4.jpg" alt="커뮤니티"></a></li>
-        </ul>
-    </div>
+   <div class="breadcrumb">
+       <div class="breadcrumb-wrap">
+           <ul class="print-btns">
+               <li><a href="#" onclick="window.print()"><i class="fa-solid fa-print"></i></a></li>
+               <li><a href="#" onclick="alert('페이지의 주소가 복사되었습니다\n공유할 곳에 붙여넣기하세요')"> <i class="fa-solid fa-share-nodes"></i></a></li>
+           </ul>
+           <div>
+            <a href="/"><i class="fa-solid fa-house"></i></a>처음 &gt; 야미소개
+           </div>
+       </div>
+   </div>
     <section id="main">
         <h2 class="d-none">본문 - 제품 리스트</h2>
         <article>
             <h3 class="d-none">식품리스트</h3>
-            <h4>product</h4>
-            <ul class="prd-list">
-                <li>
-                    <img src="images/prd_img1.jpg" alt="가공식품">
-                </li>
-                <li>
-                    <img src="images/prd_img2.jpg" alt="신선식품">
-                </li>
-                <li>
-                    <img src="images/prd_img3.jpg" alt="디저트">
-                </li>
-            </ul>
+            <h4>대표인사말</h4>
         </article>
+        <article>
+            <h3 class="d-none">식품리스트</h3>
+            <h4>브랜드스토리</h4>
+        </article>
+        <article>
+            <h3 class="d-none">식품리스트</h3>
+            <h4>연혁</h4>
+        </article>
+      
     </section>
     <aside>
         <ul class="extra-links">
@@ -96,7 +80,7 @@
     <footer>
         <div class="footer-logo">
             <a href="#">
-                <img src="images/footer_logo.gif" alt="야미">
+                <img src="../images/footer_logo.gif" alt="야미">
             </a>
         </div>
         <address>
