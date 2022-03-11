@@ -149,6 +149,13 @@ a, a:link{
     overflow: hidden;
 }
 
+.product-list{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+
 /* --------야미소개 스타일*/
 .breadcrumb{
     background: #d60c00;
