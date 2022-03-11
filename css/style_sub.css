@@ -1,0 +1,28 @@
+.article-wrap{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.fac-pic img{
+    background: pink;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+
+.article-title {
+    font-size: 1.750rem;
+}
+
+.my-5 {
+    margin : 5rem 0 2rem;
+}
+    
+.d-flex {
+    display: flex;
+}
+.justify-center {
+        justify-content: center;
+}
+.text-center {
+        text-align: center;
+}
+    

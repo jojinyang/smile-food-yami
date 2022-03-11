@@ -148,6 +148,29 @@ a, a:link{
     border-radius: 50%;
     overflow: hidden;
 }
+
+.product-list{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+
+/* --------야미소개 스타일*/
+.breadcrumb{
+    background: #d60c00;
+    color: white;
+    padding: 15px 0;
+}
+.breadcrumb-wrap{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.print-btns{
+    display: flex;
+}
 /* --------어사이드 영역 */
 aside{
     margin: 50px 0 30px;
